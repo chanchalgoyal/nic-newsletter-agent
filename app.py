@@ -6,8 +6,7 @@ from docx import Document
 import tempfile
 
 # Get API key from Streamlit secrets
-client = OpenAI(api_key=st.secrets[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])
-
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 st.title("NIC Bilingual Newsletter Agent")
 
 # -------- Agents -------- #
